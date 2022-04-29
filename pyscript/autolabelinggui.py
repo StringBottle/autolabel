@@ -3,8 +3,10 @@ from PyQt5 import QtGui
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
+
 import cv2   # computer vision library 오픈소스 컴퓨터 비전 
 import os 
+
 
 def resource_path(relative_path): 
     """ Get absolute path to resource, works for dev and for PyInstaller """ 
